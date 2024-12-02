@@ -28,16 +28,15 @@ const ExperienceTimeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#5E6E97', color: 'text-white' }}
           contentArrowStyle={{ borderRight: '7px solid  #5E6E97' }}
-          date={<CustomDate>Apr 2023 - Present</CustomDate>}
+          date={<CustomDate>Aug 2022 - Present</CustomDate>}
           visible={true}
           iconStyle={{ backgroundImage: 'url(/images/Experiences/WLU.jpeg)', backgroundSize: 'cover' }}
         >
-          <h1 className="vertical-timeline-element-title font-semibold text-2xl">Residence Education Advisor</h1>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Wilfrid Laurier University | Waterloo, ON</h4>
+          <h1 className="vertical-timeline-element-title font-semibold text-2xl">Software Developer</h1>
+          <h4 className="vertical-timeline-element-subtitle font-medium">Laurier Computing Society (LCS) | Waterloo, ON</h4>
           <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Actively assessed and addressed developmental needs for 200+ first-year residents.</li>
-            <li>Collaborated in a 12-person team to create promotional materials for 3000+ students.</li>
-            <li>Organized bi-weekly events, significantly improving student engagement and personal growth.</li>
+            <li>Built and optimized LCS web apps using React.js and Node.js, driving a 20% traffic increase and improving user engagement.</li>
+            <li>Leveraged Git, GitHub, and HTML/CSS to develop tools for events, boosting engagement and streamlining data management.</li>
           </ul>
         </VerticalTimelineElement>
 
@@ -45,15 +44,15 @@ const ExperienceTimeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#56658A', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  #56658A' }}
-          date={<CustomDate>Sep 2023 - Present</CustomDate>}
+          date={<CustomDate>Aug 2022 - Present</CustomDate>}
           visible={true}
           iconStyle={{ backgroundImage: 'url(/images/Experiences/WLU.jpeg)', backgroundSize: 'cover' }}
         >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Divisional Council Member</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Wilfrid Laurier University | Waterloo, ON</h4>
+          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Data Analyst</h3>
+          <h4 className="vertical-timeline-element-subtitle font-medium">Association Of Black Students - WLU | Waterloo, ON</h4>
           <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Represented students in discussions with faculty, providing valuable insights on curriculum changes.</li>
-            <li>Contributed to decision-making processes, enhancing the academic experience for peers.</li>
+            <li>Analyzed event data using Python, Pandas, and SQL to identify trends, resulting in a 45% increase in event attendance and community participation.</li>
+            <li>Delivered data-driven insights using R and Matplotlib, boosting awareness campaigns and increasing member involvement by 26.5%.</li>
           </ul>
         </VerticalTimelineElement>
 
@@ -61,15 +60,16 @@ const ExperienceTimeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#4F5C7D' }}
           contentArrowStyle={{ borderRight: '7px solid  #4F5C7D' }}
-          date={<CustomDate>Sep 2022 - Present</CustomDate>}
+          date={<CustomDate>Jan 2022 - Aug 2022</CustomDate>}
           visible={true}
           iconStyle={{ backgroundImage: 'url(/images/Experiences/LCS.png)', backgroundSize: 'cover' }}
         >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Events Coordinator</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Laurier Computing Society | Waterloo, ON</h4>
+          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Health, Life and Disability Insurance Agent</h3>
+          <h4 className="vertical-timeline-element-subtitle font-medium">Sun Life Financial | Montréal, QC</h4>
           <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Coordinated and assisted in planning over 20 events, engaging a community of 3000+ members.</li>
-            <li>Organized workshops, hackathons, and networking sessions, aligning with student interests and objectives.</li>
+            <li>Analyzed case files to ensure accurate communication of information, while adhering to the organization’s policies and underwriting.</li>
+            <li>Optimized case file triaging with Excel VBA, reducing escalations by 45% and boosting efficiency through streamlined workflows and team collaboration.</li>
+            <li>Resolved software glitches and account issues, ensuring prompt solutions and improved customer satisfaction.</li>
           </ul>
         </VerticalTimelineElement>
 
@@ -81,62 +81,13 @@ const ExperienceTimeline = () => {
           visible={true}
           iconStyle={{ backgroundImage: 'url(/images/Experiences/LaurierGrappling.png)', backgroundSize: 'cover' }}
         >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Director Of Marketing</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Laurier Grappling | Waterloo, ON</h4>
+          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Data Analyst Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle font-medium">Icon Office Environments | Brantford, ON</h4>
           <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Developed comprehensive marketing strategies, significantly enhancing the club’s visibility.</li>
-            <li>Utilized various marketing channels, attracting new members and increasing engagement.</li>
-            <li>Coordinated a 4-person team to execute marketing strategies, achieving measurable success.</li>
-          </ul>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: '#3F4964' }}
-          contentArrowStyle={{ borderRight: '7px solid  #3F4964' }}
-          date={<CustomDate>Feb 2024 - Present</CustomDate>}
-          visible={true}
-          iconStyle={{ backgroundImage: 'url(/images/Experiences/BSA.png)', backgroundSize: 'cover' }}
-        >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Vice President</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Bangladeshi Students Association | Waterloo, ON</h4>
-          <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Oversee all club operations & departments, providing support and insights.</li>
-            <li>Manage and adjust club budget for student events.</li>
-          </ul>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: '#374058' }}
-          contentArrowStyle={{ borderRight: '7px solid  #374058' }}
-          date={<CustomDate>Oct 2023 - Apr 2024</CustomDate>}
-          visible={true}
-          iconStyle={{ backgroundImage: 'url(/images/Experiences/LBO.jpg)', backgroundSize: 'cover' }}
-        >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Director Of Events</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Laurier Biotechnology Organization | Waterloo, ON</h4>
-          <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Led the planning and execution of diverse events.</li>
-            <li>Manage and adjust all budgets/finances for events.</li>
-            <li>In constant communications with internal and external affiliates for event management.</li>
-          </ul>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: '#2f374b' }}
-          contentArrowStyle={{ borderRight: '7px solid  #2f374b' }}
-          date={<CustomDate>Jun 2021 - Sep 2021</CustomDate>}
-          visible={true}
-          iconStyle={{ backgroundImage: 'url(/images/Experiences/TDSB.png)', backgroundSize: 'cover' }}
-        >
-          <h3 className="vertical-timeline-element-title font-semibold text-2xl">Permits Information Technician</h3>
-          <h4 className="vertical-timeline-element-subtitle font-medium">Toronto District School Board | Toronto, ON</h4>
-          <ul className="mt-3 space-y-2 px-3 list-outside list-disc">
-            <li>Collected and verified data on 50+ attributes for 125+ schools, ensuring regulatory compliance.</li>
-            <li>Organized and managed data using Excel, enhancing efficiency in tracking and analysis.</li>
-            <li>Collaborated with a 4-person team to resolve data discrepancies, improving data integrity and accuracy.</li>
+            <li>Achieved 100% inventory accuracy by developing and implementing automated workflows, driving operational excellence and precision.</li>
+            <li>Streamlined data processes with SQL, QuickBooks API, and Method API, improving reliability and reducing manual effort.</li>
+            <li>Introduced Open-Audit for tech system auditing, revolutionizing operational efficiency and ensuring enhanced equipment management.</li>
+            <li>Enhanced cross-team collaboration by creating detailed inventory visualizations in Miro, fostering clear communication and optimized workflows.</li>
           </ul>
         </VerticalTimelineElement>
 
